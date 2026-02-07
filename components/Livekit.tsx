@@ -12,7 +12,7 @@ import { Room, Track } from "livekit-client";
 import "@livekit/components-styles";
 import { useState, useEffect, useMemo } from "react";
 
-const serverUrl = "ws://localhost:8000";
+const serverUrl = "wss://hoe-6pzhxoj0.livekit.cloud";
 
 export default function LiveKitComponent({
   token,
